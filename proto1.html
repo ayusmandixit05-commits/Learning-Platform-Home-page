@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./Essentials/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./proto1.css">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <div class="left-section me-auto ps-2">
+                        <a href="./proto1.html">
+                            <img class='imga' src="./imgs/logo.png">
+                        </a>
+                        <p class="m-0 fw-bold fs-6">Edu4All</p>
+                    </div>
+                    <button class="me-2 navbar-toggler" data-bs-toggle='collapse' data-bs-target='#navbarOptions'>
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarOptions" >   <!--Here d-flex was giving unexpected behaviour bcz navbar-collapse is also a flex so it overrides it -->
+                        <div class=" mt-2 d-flex flex-column flex-lg-row gap-2 ms-auto" >  <!-- ms-auto works on flex children not on flex element itself -->
+                            <button class="btn btn-outline-secondary nav-button-design">Home</button>
+                            <button class="btn btn-outline-secondary nav-button-design">About</button>
+                            <button class="btn btn-outline-secondary nav-button-design">Contact</button>
+                            <button class="btn btn-outline-secondary nav-button-design">Login</button>
+                        </div>    
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="row">
+                <div class="col-12 col-lg-6 grid1" style="height: 30rem;">
+                    <p class="fw-bold " style="width:400px">
+                        Innovation and Discovery
+                    </p>
+                    <p class="fs-6">
+                        Empowering learners with knowledge, skills, and confidence to thrive in a rapidly changing world. At Edu4All, we combine expert instruction, modern technology, and inclusive education to shape future leaders.
+                    </p>
+                    <button class="button-decor2">Sign up for Execution</button>
+                    <button class="b--button-decor">Learn More</button>
+                </div>
+                <div class="col-12 col-lg-6 ps-0 pe-0" style="height: 30rem;">
+                    <img style=" width:100%; height:100%; " src="./imgs/banner-1.jpg">
+                </div>
+            </div>
+            <div class="container" style="text-align: center; margin-top: 26px; margin-bottom: 30px;">
+                <span class="headline-text">Statistics</span>
+                <p class="fs-6 " style="margin-top: 10px; margin-bottom: 50px;">Our impact is reflected through our growing academic community and trusted learning environment.</p>
+                <div class="row">
+                    <div class="col-6 col-lg-3 d-flex flex-column align-items-center text-center">
+                        <div class="stats-logo-des">
+                            <svg style="width:100%; height:100%; object-fit:contain; " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                                <circle cx="50" cy="50" r="48" fill="none" stroke="#D1E8F2" stroke-width="2"/>
+                                <circle cx="50" cy="35" r="12" fill="black"/>
+                                <path d="M28 80c0-10 8-18 22-18s22 8 22 18H28z" fill="black"/>
+                                <path d="M46 62l4 8 4-8z" fill="white"/>
+                            </svg>
+                        </div>
+                        <p class='mb-0 fs-3 fw-semibold' style="color: rgb(100, 206, 245);">156</p>
+                        <p class="mt-0">Professer</p>
+                    </div>
+                    <div class="col-6 col-lg-3 d-flex flex-column align-items-center text-center">
+                        <div class="stats-logo-des">
+                            <svg style="width:100%; height:100%; object-fit:contain; " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                                <circle cx="50" cy="50" r="48" fill="none" stroke="#D1E8F2" stroke-width="2"/>
+                                <path d="M50 25l-25 12v4h50v-4zM30 45v20h6V45h-6zm11 0v20h6V45h-6zm11 0v20h6V45h-6zm12 0v20h6V45h-6zM25 69v4h50v-4H25z" fill="black"/>
+                            </svg>
+                        </div>
+                        <p class='mb-0 fs-3 fw-semibold' style="color: rgb(100, 206, 245);">12</p>
+                        <p class="mt-0">Campus</p>
+                    </div>
+                    <div class="col-6 col-lg-3 d-flex flex-column align-items-center text-center">
+                        <div class="stats-logo-des">
+                            <svg style="width:100%; height:100%; object-fit:contain; " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="200" height="200">
+                                <circle cx="50" cy="50" r="48" fill="none" stroke="#add8e6" stroke-width="1.5"/> 
+                                <g transform="translate(25, 30) scale(0.5)">
+                                    <circle cx="30" cy="30" r="20" fill="black"/>
+                                    <path d="M0 80c0-15 12-25 30-25s30 10 30 25v10H0V80z" fill="black"/>
+                                    
+                                    <circle cx="70" cy="30" r="20" fill="black"/>
+                                    <path d="M40 80c0-15 12-25 30-25s30 10 30 25v10H40V80z" fill="black"/>
+                                    
+                                    <circle cx="50" cy="55" r="22" fill="black" stroke="white" stroke-width="4"/>
+                                    <path d="M15 105c0-18 15-30 35-30s35 12 35 30v10H15v-10z" fill="black" stroke="white" stroke-width="4"/>
+                                </g>
+                            </svg>
+                        </div>
+                        <p class='mb-0 fs-3 fw-semibold' style="color: rgb(100, 206, 245);">3257</p>
+                        <p class="mt-0">students</p>
+                    </div>
+                    <div class="col-6 col-lg-3 d-flex flex-column align-items-center text-center">
+                        <div class="stats-logo-des">
+                           <svg style="width:100%; height:100%; object-fit:contain; " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                                <circle cx="50" cy="50" r="48" fill="none" stroke="#D1E8F2" stroke-width="2"/>
+                                <circle cx="50" cy="35" r="10" fill="black"/>
+                                <path d="M50 58c-4 0-14 3-18 6v16s4-4 18-4 18 4 18 4V64c-4-3-14-6-18-6z" fill="black"/>
+                            </svg>
+                        </div>
+                        <p class='mb-0 fs-3 fw-semibold' style="color: rgb(100, 206, 245);">346</p>
+                        <p class="mt-0">Courses</p>
+                    </div>
+                </div>
+            </div>
+            <div class=" pt-3 program-container text-center pb-5">
+                <div class="container">
+                    <span class="headline-text" style=" border-bottom: 3px solid rgb(3, 3, 118);">Featured Program</span>
+                    <p class="fs-6 mb-5" style="margin-top:10px;" >
+                        Explore our most popular academic programs designed to combine theory with real-world application.
+                    </p>
+                    <div class="row g-4">
+                        <div class="col-6 col-lg-3">
+                            <div class="card text-center">
+                                <img src="./imgs/banner-1.jpg">
+                                <p class="mt-2 mb-2 fs-5 fw-semibold">Antropology</p>
+                            </div>
+                        </div>
+                        <div class="col-6 col-lg-3">
+                            <div class="card text-center">
+                                <img src="./imgs/card-copywriting.jpg">
+                                <p class="mt-2 mb-2 fs-5 fw-semibold">Copywriting</p>
+                            </div>
+                        </div>
+                        <div class="col-6 col-lg-3">
+                            <div class="card text-center">
+                                <img src="./imgs/card-design.jpg">
+                                <p class="mt-2 mb-2 fs-5 fw-semibold">Design</p>
+                            </div>
+                        </div>
+                        <div class="col-6 col-lg-3">
+                            <div class="card text-center">
+                                <img src="./imgs/card-economics.jpg">
+                                <p class="mt-2 mb-2 fs-5 fw-semibold">Economics</p>
+                            </div>
+                        </div>
+                        <div class="col-6 col-lg-3">
+                            <div class="card text-center">
+                                <img src="./imgs/card-mathematics.jpg">
+                                <p class="mt-2 mb-2 fs-5 fw-semibold">Mathematics</p>
+                            </div>
+                        </div>
+                        <div class="col-6 col-lg-3">
+                            <div class="card text-center">
+                                <img src="./imgs/card-physics.jpg">
+                                <p class="mt-2 mb-2 fs-5 fw-semibold">Physics</p>
+                            </div>
+                        </div>
+                        <div class="col-6 col-lg-3">
+                            <div class="card text-center">
+                                <img src="./imgs/card-programming.jpg">
+                                <p class="mt-2 mb-2 fs-5 fw-semibold">Programming</p>
+                            </div>
+                        </div>
+                        <div class="col-6 col-lg-3">
+                            <div class="card text-center">
+                                <img src="./imgs/card-psychology.jpg">
+                                <p class="mt-2 mb-2 fs-5 fw-semibold">Psychology</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container mt-5 mb-5">
+                <div class="row">
+                    <div class="col-8 col-lg-10">
+                        <p class="fs-2 fw-semibold">A Few Words About the University</p>
+                        <p class="fs-6">Edu4All is committed to providing accessible, high-quality education for students from diverse backgrounds. Our curriculum is designed to foster innovation, critical thinking, and lifelong learning. With experienced faculty, state-of-the-art infrastructure, and a student-centric approach, we prepare learners for global opportunities.</p>
+                        <button class="b--button-decor" style="margin-top: 12px;">Learn More</button>
+                    </div>
+                    <div class="col-4 col-lg-2 d-flex justify-content-center align-items-center">
+                        <img style="width:200px" src="./imgs/logo.png">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <video
+                        width="100%"
+                        autoplay
+                        muted
+                        loop
+                        playsinline
+                        controls>
+                        <source src="./videos/Welcome-to-Cambridge.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+            <div class="text-center mt-5">
+                <span class="headline-text" style="border-bottom: 2px solid rgb(3, 3, 118);">Trusted by Over 5000+ Students</span>
+                <p class="fs-6 mb-5" style="margin-top:10px;" >
+                    Thousands of students worldwide trust Edu4All for academic excellence, career growth, and a supportive learning community.
+                </p>
+                <div class="row">
+                    <div class="col-6 col-lg-3 ps-0 pe-0">
+                        <div class="image-card">
+                            <img src="./imgs/galary-1.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3 ps-0 pe-0">
+                        <div class="image-card">
+                            <img src="./imgs/galary-2.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3 ps-0 pe-0">
+                        <div class="image-card">
+                            <img src="./imgs/galary-3.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3 ps-0 pe-0">
+                        <div class="image-card">
+                            <img src="./imgs/galary-4.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3 ps-0 pe-0">
+                        <div class="image-card">
+                            <img src="./imgs/galary-5.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3 ps-0 pe-0">
+                        <div class="image-card">
+                            <img src="./imgs/galary-6.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3 ps-0 pe-0">
+                        <div class="image-card">
+                            <img src="./imgs/galary-7.jpg">
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3 ps-0 pe-0">
+                        <div class="image-card">
+                            <img src="./imgs/galary-8.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <span class="headline-text" style="border-bottom: 2px solid rgb(3, 3, 118);">Our Team</span>
+                <div class="row g-4 mt-3 ms-4 me-3">
+                    <div class="col-6 col-lg-3">
+                        <div class="card text-center " style="background: transparent;">
+                            <img class=" card-img-top team-img" src="./imgs/instructor-1.jpg">
+                            <p class="mt-1 mb-0 fs-5 fw-semibold" style=" color: rgb(71, 152, 245);">Jhon Smith</p>
+                            <p class="fs-6" style="color: rgb(214, 213, 213);">Geophysics</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <div class="card text-center " style="background: transparent;">
+                            <img class=" card-img-top team-img" src="./imgs/instructor-3.jpg">
+                            <p class="mt-1 mb-0 fs-5 fw-semibold" style=" color: rgb(71, 152, 245);">Sara Will</p>
+                            <p class="fs-6" style="color: rgb(214, 213, 213);">Graphic Design</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <div class="card text-center " style="background: transparent;">
+                            <img class=" card-img-top team-img" src="./imgs/instructor-2.jpg">
+                            <p class="mt-1 mb-0 fs-5 fw-semibold" style=" color: rgb(71, 152, 245);">Tom Brook</p>
+                            <p class="fs-6" style="color: rgb(214, 213, 213);">Economics</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <div class="card text-center " style="background: transparent;">
+                            <img class=" card-img-top team-img" src="./imgs/instructor-4.avif">
+                            <p class="mt-1 mb-0 fs-5 fw-semibold" style=" color: rgb(71, 152, 245);">Ema Elizabeth</p>
+                            <p class="fs-6" style="color: rgb(214, 213, 213);">Psychology</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-6 col-lg-6 ps-0 pe-0">
+                    <img style="height:100%; width:100%" src="./imgs/help.jpg">
+                </div>
+                <div class="col-6 col-lg-6 fs-6 pt-4 pb-4 ps-4 pe-4" style="background-color: rgb(16, 16, 55); color: white;" >
+                    <div class="container">
+                        <p class="fw-bold fs-1">Send Us Your Query</p>
+                        <p class="mt-1 mb-1">Name</p>
+                        <input type="text " class="input-decoration " placeholder="">
+                        <p class="mt-1 mb-1">Mobile</p>
+                        <input type="tel " class="input-decoration " placeholder="">
+                        <p class="mt-1 mb-1">Email</p>
+                        <input type="text" class="input-decoration" placeholder="">
+                        <p class="mt-1 mb-1">Department</p>
+                        <select class='branch-in' id="branch" name="branch">
+                            <option value="CSE">CSE</option>
+                            <option value="CEN">CEN</option>
+                            <option value="CST">CST</option>
+                            <option value="EEE">EEE</option>
+                            <option value="ECE">ECE</option>
+                            <option value="EI">EI</option>
+                        </select>
+                        <p class="mt-1 mb-1">Message</p>
+                        <textarea 
+                            class="form-control"
+                            rows="12"
+                            placeholder="Enter your message here."
+                        ></textarea>
+                        <button class="button-decor1">Send Message</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="footer">
+                <div class="row g-6 ">
+                    <div class="col-4 d-flex flex-column align-items-start justify-content-center">
+                        <span class="headline-text fs-4 " style="border-bottom: 2px solid rgb(3, 3, 118);" >Contact</span>
+                        <div class="d-flex justify-content-center align-items-center">
+                            <img class="me-1" src="./imgs/phone.svg">
+                            <span>+91 98765 54321</span>
+                        </div>
+                        <div class="d-flex justify-content-center align-items-center">
+                            <img class="me-1" src="./imgs/envelope-fill.svg">
+                            <span>contact@edu4all..com</span>
+                        </div>
+                        <div class="d-flex justify-content-center align-items-center">
+                            <img class="me-1" src="./imgs/geo-alt-fill.svg">
+                            <span>Delhi, India</span>
+                        </div>
+                        <div class="ms-3 mt-3 d-flex justify-content-center align-items-center gap-4">
+                            <img class="me-1" style="border:8px solid rgb(235, 233, 233); border-radius:50%;" src="./imgs/facebook.svg">
+                            <img class="me-1" style="border:8px solid rgb(235, 233, 233); border-radius:50%;" src="./imgs/instagram.svg">
+                            <img class="me-1" style="border:8px solid rgb(235, 233, 233); border-radius:50%;" src="./imgs/twitter-x.svg">
+                            <img class="me-1" style="border:8px solid rgb(235, 233, 233); border-radius:50%;" src="./imgs/youtube.svg">
+                        </div>
+                    </div>
+                    <div class="col-4 mt-4">
+                        <span class="headline-text fs-4 " style="border-bottom: 2px solid rgb(3, 3, 118);" >Newsletter</span>
+                        <p>Subscribe to our newsletter to receive updates about new courses, events, and academic opportunities.</p>
+                        <div class="d-flex">
+                            <input type="text " class="input-decoration2 " placeholder="Your Email">
+                            <button class="search-button">
+                                <img class="search-icon" src="./imgs/notifications.svg">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-4 ps-0 pe-0">
+                        <iframe 
+                            class="map-decor"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2947.5026827864413!2d-71.1182488!3d42.3744368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e377427d7f0199%3A0x5937c65cee2427f0!2sHarvard%20University!5e0!3m2!1sen!2sin!4v1768194148340!5m2!1sen!2sin" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+            <div class=" d-flex align-items-center mt-4 justify-content-center" style="background-color: rgb(3, 3, 118); height: 40px; color: white; ">
+                <p class="mt-0 mb-0">Copyright © 2023 Edu4All</p>
+            </div>
+        </footer>
+        <script src="./Essentials/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
